@@ -1,0 +1,72 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    border-top: 3px solid #007bff;
+  }
+  
+  .footer-title {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+    color: #ffd700; /* Golden color for the quote */
+  }
+  
+  .footer-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Spacing between inputs */
+  }
+  
+  .footer-form input,
+  .footer-form select,
+  .footer-form textarea {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 14px;
+    min-width: 200px;
+  }
+  
+  .footer-form select {
+    min-width: 220px; /* Adjust width for dropdown */
+  }
+  
+  .footer-form textarea {
+    width: 250px;
+    height: 40px;
+    resize: none; /* Disable resizing for consistent styling */
+  }
+  
+  .footer-form button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .footer-form button:hover {
+    background-color: #0056b3;
+    transition: background-color 0.3s ease;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-form {
+      flex-direction: column;
+      gap: 10px;
+    }
+  
+    .footer-form input,
+    .footer-form select,
+    .footer-form textarea {
+      width: 100%;
+    }
+  }
+  

@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "keccomputing",
+=======
+  "name": "kec2024_fullstack",
+>>>>>>> 2c5626aa6129fb1738d37d36a3114643c8ed53d8
   "private": true,
   "version": "0.0.0",
   "type": "module",

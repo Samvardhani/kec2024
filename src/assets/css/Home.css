@@ -1,4 +1,5 @@
 .box-model{
+<<<<<<< HEAD
     font-size: 30px;
     margin: 10px;
     border: 5px solid blue;
@@ -7,4 +8,17 @@
 #idSEg{
     color: red;
     text-align: center;
+=======
+    font-size: 100px;
+    margin: 10px;
+    border: 10px solid#dad0d0;
+    padding-left: 10px;
+
+
+
+}
+#idSeg{
+    text-align: center;
+
+>>>>>>> 2c5626aa6129fb1738d37d36a3114643c8ed53d8
 }
