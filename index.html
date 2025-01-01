@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite + React</title>
+    <style>
+      /* Adding a background image and styles */
+      body {
+        background-image: url('/Image/Lerning.jpg'); /* Adjust based on the actual relative path */
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        font-family: 'Arial', sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+      #root {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        text-align: center;
+        font-size: 24px; /* Reduced font size */
+        font-weight: bold;
+        color: transparent; /* Makes the text transparent to show the gradient */
+        background: linear-gradient(90deg, #ff7e5f, #feb47b); /* Gradient text effect */
+        -webkit-background-clip: text; /* Clips the background to the text */
+        background-clip: text;
+        text-shadow: 1px 1px 4px rgba(0, 0, 0, 0.6); /* Subtle shadow for readability */
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">Welcome to Vite + React!</div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
